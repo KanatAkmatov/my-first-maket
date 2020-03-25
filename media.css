@@ -1,0 +1,130 @@
+@media (max-width: 1200px) {
+    .col-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .col-4 {
+        width: 100%;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .work-content {
+        text-align: center;
+    }
+    .col-3{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .top-menu_item:before{
+        bottom: -7px;
+    }
+    .top-menu{
+        display: none;
+    }
+    .top-menu.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #71a2a2;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+    .top-menu.show a {
+        margin: 10px 0 0;
+    }
+    .burger {
+        display: flex;
+        z-index: 3;
+    }
+    .col-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .col-4 {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .work-content {
+        text-align: center;
+    }
+    .col-3{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .apps-title,
+    .about-title,
+    .work-title,
+    .project-title {
+        font-size: 25px;
+    }
+    .contacts-title {
+        font-size: 15px;
+    }
+    .site-container {
+        display: flex;
+        justify-content: center;
+    }
+    .site-box {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .work-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-title {
+        text-align: center;
+    }
+    .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .work-content {
+        text-align: center;
+    }
+    .col-3 {
+        width: 50%;
+        text-align: center;
+    }
+    .play {
+        width: 80%;
+    }
+}
+@media (max-width: 540px) {
+    .col-3{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .col-4 {
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .about-title {
+        text-align: center;
+    }
+}
